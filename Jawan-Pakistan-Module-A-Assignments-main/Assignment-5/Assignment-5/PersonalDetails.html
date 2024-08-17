@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        th {
+            font-size: larger;
+            padding: 10px;
+            background-color: grey;
+        }
+
+        .previous {
+            background-color: rgb(71, 180, 71);
+        }
+
+        .current {
+            background-color: rgb(116, 174, 192);
+        }
+
+        fieldset {
+            width: 530px;
+        }
+
+        input,
+        label {
+            margin: 10px;
+            width: 250px;
+        }
+
+        img {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Table">
+        <table>
+            <tr>
+                <th class="previous">Step 1: Account</th>
+                <th class="current">Step 2: Personal Details</th>
+                <th>Step 3: Your Review</th>
+            </tr>
+        </table>
+    </div>
+    <div class="form">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="First-Name">First Name:</label>
+            <br>
+            <input type="text" name="First-Name" placeholder="Enter First Name">
+            <br>
+            <label for="Last-Name">Last Name:</label>
+            <br>
+            <input type="text" name="Last-Name" placeholder="Enter Last Name">
+            <br>
+            <label for="CNIC">CNIC:</label>
+            <br>
+            <input type="number" name="CNIC" placeholder="Enter Your Identity Number">
+
+
+            <br>
+            <label for="social-link">Social Link</label>
+            <br>
+            <input type="text" name="social-link" placeholder="Enter Facebook/Linkedin Profile Here">
+            <br>
+            <a href="./AccountDetails.html"><img src="./Images/Back.jpeg" alt=""></a>
+            <a href="./YourReview.html"><img src="./Images/Next.jpeg" alt=""></a>
+        </fieldset>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animal Image</title>
+        <style>
+        header{
+    text-align: center;
+    background-color: gray;
+    
+}
+button{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3px; 
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+div img {
+            width: 400px;
+            height: 300px;
+            border: 2px solid brown;
+            border-radius: 13px;
+            box-shadow: 4px 7px 7px 5px #000000;
+            cursor: pointer;
+            margin: 10px;
+            transition: 400ms;
+        }
+
+div img:hover {
+            filter: grayscale(1);
+            transform: scale(1.1);
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>"Animal Gallery"</h1>
+            <div class="btn">
+                <nav>
+                    <button>
+                        <a href="index.html">Animal Gallery</a>
+                    </button>
+                    <button>
+                        <a href="Index2.html">Cars Gallery</a>
+                    </button>
+                    <button>
+                        <a href="index3.html">Sports Gallery</a>
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <h3>Online Images</h3>
+        <Div>
+            <img src="https://aldf.org/wp-content/uploads/2018/05/lamb-iStock-665494268-16x9-e1559777676675.jpg" alt="Goat-Baby">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/headshot-of-giraffe-sabi-sands-game-reserve-royalty-free-image-1573571360.jpg?crop=1.00xw:0.334xh;0,0.106xh&resize=1200:*" alt="Girrafe">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/5faad4255239c9448d6c7bcd/Best-Animal-Photos-Contest--Close-Up-Of-baby-monkey/960x0.jpg?format=jpg&width=960" alt="Monkey-Baby">
+            <img src="https://www.irishexaminer.com/cms_media/module_img/6384/3192305_10_articlesmall_Humboldt_2bpenguins_2bat_2bFota_2bwildlife_2bpark_1_.jpg" alt="Pangoin Family">
+            <img src="https://images.chinahighlights.com/allpicture/2020/08/826a518ea9fc46d4b5adcc38_cut_800x500_61.jpg" alt="Kung Fu Panda">
+        </Div>
+        <h3>Offline Images</h3>
+        <div class="Gallery">
+            <img src="./Images/Animal/Cat.jpeg" alt="Cat">
+            <img src="./Images/Animal/Elephants.jpeg" alt="Elephants">
+            <img src="./Images/Animal/Fox.jpeg" alt="Fox">
+            <img src="./Images/Animal/Lion.jpeg" alt="Lion">
+            <img src="./Images/Animal/Zabera.jpeg" alt="Zabera">
+        </div>
+    </body>
+</html>

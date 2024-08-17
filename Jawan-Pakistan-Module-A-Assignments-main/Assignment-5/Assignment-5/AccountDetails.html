@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        th {
+            font-size: larger;
+            padding: 10px;
+            background-color: grey;
+        }
+
+        .current {
+            background-color: rgb(116, 174, 192);
+        }
+
+        fieldset {
+            width: 530px;
+        }
+
+        input,
+        label {
+            margin: 10px;
+            width: 250px;
+        }
+
+        img {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Table">
+        <table>
+            <tr>
+                <th class="current">Step 1: Account</th>
+                <th>Step 2: Personal Details</th>
+                <th>Step 3: Your Review</th>
+            </tr>
+        </table>
+    </div>
+    <div class="form">
+        <fieldset>
+            <legend>Account</legend>
+            <label for="email-address">Email Address:</label>
+            <br>
+            <input type="text" name="email-address" placeholder="Enter Email">
+            <br>
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" name="password" placeholder="Enter Password">
+            <br>
+            <label for="Confirm-password">Confirm Password:</label>
+            <br>
+            <input type="password" name="Confirm-password" placeholder="Confirm Password">
+            <br>
+            <a href="./index.html"><img src="./Images/Back.jpeg" alt=""></a>
+            <a href="./PersonalDetails.html"><img src="./Images/Next.jpeg" alt=""></a>
+        </fieldset>
+    </div>
+</body>
+
+</html>

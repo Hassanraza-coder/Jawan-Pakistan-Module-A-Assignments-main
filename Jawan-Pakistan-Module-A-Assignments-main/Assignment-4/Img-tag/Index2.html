@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Images</title>
+    <style>
+        header {
+            text-align: center;
+            background-color: gray;
+
+        }
+
+        button {
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            margin-bottom: 3px;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        h3 {
+            color: gray;
+            text-align: center;
+
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        div img {
+            width: 400px;
+            height: 300px;
+            border: 2px solid brown;
+            border-radius: 13px;
+            box-shadow: 4px 7px 7px 0 black;
+            margin: 10px;
+            transition: 400ms;
+
+        }
+
+        div img:hover {
+            filter: grayscale(1);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>"Cars Gallery"</h1>
+        <div class="btn">
+            <nav>
+                <button>
+                    <a href="index.html"> Animal Gallery</a>
+                </button>
+                <button>
+                    <a href="Index2.html">Cars Gallery</a>
+                </button>
+                <button>
+                    <a href="index3.html">Sports Gallery</a>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <h3>Online Images</h3>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6JQb1QSWYWun0j50aQFGC_sWpQGQKlJROfa3JW_50FGfdd7MpFTpoeu3ZY0pAGGlyk38&usqp=CAU"
+            alt="Car">
+        <img src="https://img.freepik.com/premium-photo/red-lamborghini-is-driving-cloud-smoke_796580-3444.jpg"
+            alt="Car">
+        <img src="https://img.freepik.com/premium-photo/lamborghini-is-burning-fire-fire-is-burning_575980-427.jpg?w=2000"
+            alt="Car">
+        <img src="https://img.freepik.com/premium-photo/wallpaper-lamborghini-car-with-smoke-galaxy-vibe-generated-ai_775052-281.jpg?w=2000"
+            alt="Car">
+        <img src="https://img.freepik.com/premium-photo/colorful-car-with-smoke-coming-out-it-generative-ai_97167-2622.jpg?w=2000"
+            alt="Car">
+    </div>
+    <h3>Ofline Images</h3>
+    <div>
+        <img src="./Images/Car/Car1.jpeg" alt="">
+        <img src="./Images/Car/Car2.jpeg" alt="">
+        <img src="./Images/Car/Car3.jpeg" alt="">
+        <img src="./Images/Car/Car4.jpeg" alt="">
+        <img src="./Images/Car/Car5.jpeg" alt="">
+    </div>
+</body>
+
+</html>

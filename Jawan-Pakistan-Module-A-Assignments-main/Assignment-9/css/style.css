@@ -1,0 +1,358 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Upper Navigation area*/
+#upper-nav-area {
+    height: 4.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 232, 229);
+}
+
+.upper-nav-area-img {
+    height: 80%;
+    width: 12%;
+    padding: 5px;
+    margin: 1px;
+    transition: 40ms;
+    cursor: pointer;
+}
+
+.upper-nav-area-img:hover {
+    transform: scale(1.1);
+
+}
+
+.upper-nav-area-img img {
+    width: 100%;
+    height: 100%;
+}
+
+#logo-pokemon-79x45 {
+    width: 85px;
+    box-shadow: 2px 0px grey, -2px 0px grey;
+    background-color: white;
+}
+
+#logo-pokemoncenter-79x45 {
+    width: 85px;
+}
+
+#corporate-en {
+    width: 85px;
+}
+
+
+/*Navigation*/
+
+#navbar {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+
+}
+
+#navbar li {
+    height: 15vh;
+    width: 15%;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#navbar li img {
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+    background-attachment: white;
+    filter: brightness(-100);
+}
+
+#home {
+    background-color: grey;
+    color: white;
+    border-bottom: 7px solid grey;
+    border-bottom-left-radius: 10px;
+}
+
+#pokedex {
+    border-bottom: 7px solid red;
+}
+
+#pokedex:hover {
+    background-color: red;
+    color: white;
+}
+
+#video-games-apps {
+    border-bottom: 7px solid orange;
+}
+
+#video-games-apps:hover {
+    background-color: orange;
+    color: white;
+}
+
+#trading-card-game {
+    border-bottom: 7px solid rgb(255, 208, 0);
+}
+
+#trading-card-game:hover {
+    background-color: rgb(255, 208, 0);
+    color: white;
+}
+
+#pokemon-tv {
+    border-bottom: 7px solid green;
+}
+
+#pokemon-tv:hover {
+    background-color: green;
+    color: white;
+}
+
+#pokemon-events {
+    border-bottom: 7px solid rgb(0, 217, 255);
+}
+
+#pokemon-events:hover {
+    background-color: rgb(0, 217, 255);
+    color: white;
+}
+
+#news {
+    border-bottom: 07px solid rgb(33, 81, 214);
+    border-bottom-right-radius: 10px;
+}
+
+#news:hover {
+    background-color: rgb(33, 81, 214);
+    color: white;
+}
+
+/* Section one */
+
+
+#sectionone {
+    height: 120vh;
+    background-image: url('../img/bg-img/bg3.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    border: 2px solid white;
+    background-color: rgb(231, 231, 231);
+    width: 60%;
+    height: 99%;
+    margin: 5px auto;
+    box-shadow: 5px 5px 5px white;
+
+
+}
+
+.card {
+    border: 2px solid purple;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 40ms;
+    box-shadow: 5px 5px 5px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+#card-row-1 {
+    display: flex;
+}
+
+#card-1 {
+    height: 75%;
+    margin-top: 35px;
+    background-color: burlywood;
+}
+
+#card-column-2 {
+    width: 33%;
+}
+
+#card-2 {
+    height: 13.5em;
+    background-color: rgb(255, 153, 0);
+}
+
+#card-3 {
+    height: 13.5em;
+    background-color: rgb(249, 164, 194);
+}
+
+#card-row-2 {
+    display: flex;
+}
+
+#card-4 {
+    height: 13.5em;
+    width: 30em;
+    background-color: rgb(126, 77, 126);
+}
+
+#card-5 {
+    height: 13.5em;
+    width: 30em;
+    background-color: grey;
+}
+
+#card-6 {
+    height: 13.5em;
+    width: 30em;
+    background-color: rgb(50, 87, 139);
+}
+
+.card h3,
+.card p {
+    padding: 10px;
+}
+
+/* section two */
+
+#sectiontwo {
+    border: 2px solid red;
+    margin: 5px 0;
+    height: 500px;
+
+}
+
+.image-slider {
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+
+}
+
+.slide-div {
+    background-color: black;
+    border: 2px solid green;
+    width: 450px;
+    transition: 40ms;
+    cursor: pointer;
+
+}
+
+.slide-div:hover {
+    transform: scale(1.3);
+}
+
+
+
+/*Section Three*/
+#sectionthree {
+    /* border: 2px solid red; */
+    height: 100vh;
+    background-image: url('../img/bg-img/bg2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.card-row-1 {
+    display: flex;
+    height: 60%;
+    /* border: 2px solid red; */
+
+}
+
+#sectionthree-card-1 {
+    width: 80%;
+    height: 95%;
+    background-color: rgb(255, 230, 0);
+
+}
+
+.card-row-2 {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 40%;
+
+}
+
+#sectionthree-card-2 {
+    width: 80%;
+    height: 90%;
+    background-color: rgb(0, 140, 255);
+
+}
+
+#sectionthree-card-3 {
+    width: 80%;
+    height: 87%;
+    background-color: rgb(68, 65, 65);
+
+}
+
+
+#sectionthree-card-4 {
+    background-color: rgb(62, 62, 235);
+}
+
+#sectionthree-card-5 {
+    background-color: rgb(197, 82, 36);
+}
+
+#sectionthree-card-6 {
+    background-color: rgb(176, 111, 157);
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+
+
+.footer {
+    border: 2px solid red;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.items {
+    margin: 75px;
+    font-size: 20px;
+}
+
+.items ul {
+    list-style: none;
+}
+
+.social-media {
+    padding: 75px;
+}
+
+.icon {
+    font-size: x-large;
+    margin: 02px;
+}

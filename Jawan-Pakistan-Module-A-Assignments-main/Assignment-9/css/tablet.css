@@ -1,0 +1,109 @@
+@media only screen and (max-width:768px) {
+    /* Upper Navigation Area */
+    
+
+    /* Navigation */
+
+
+    #navbar ul {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: start;
+        margin: 5px;
+    }
+
+    #navbar li {
+        width: 400%;
+        height: 75px;
+        border-radius: 10px;
+        border: hidden;
+    }
+
+
+
+    /* Section One */
+
+
+
+    #sectionone {
+        height: 1200px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+
+    #card-row-1 {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid red;
+        justify-content: center;
+
+    }
+
+    #card-1 {
+        height: 400px;
+    }
+
+    #card-column-2 {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid red;
+        width: 100%;
+
+    }
+
+    /* Section two */
+
+
+
+
+    /* Section Three */
+
+
+
+    #sectionthree{
+        height: 800px;
+    }
+    .card-row-1{
+height: 370px;
+    }   
+    #sectionthree-card-1{
+        height: 350px;
+    }
+    #sectionthree-card-2{
+        height: 350px;
+    }
+    #sectionthree-card-3{
+        height: 350px;
+    }
+    #sectionthree-card-4{
+        height: 350px;
+    }
+    #sectionthree-card-5{
+        height: 350px;
+    }
+    #sectionthree-card-6{
+        height: 350px;
+    }
+
+
+
+
+    /* Footer */
+.footer{
+    height: 450px;
+}
+/* 
+.social-media{
+    margin: 15px;
+} */
+
+
+}

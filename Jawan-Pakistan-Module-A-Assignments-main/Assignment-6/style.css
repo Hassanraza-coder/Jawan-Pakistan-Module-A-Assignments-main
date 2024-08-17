@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://cdn.wallpapersafari.com/31/50/dNQTbX.jpg);
+    color: rgb(199, 146, 0);
+    text-align: center;
+    text-shadow: 10px 10px 10px 0;
+    font-family: 'Montserrat Subrayada';font-size: 22px;
+    text-shadow: 10px 10px 10px;
+    
+
+}
+h1,h2{
+    transition: 400ms;
+}
+h1:hover,
+h2:hover{
+    transform: scale(1.1);
+    filter: grayscale(1);
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 400ms;
+    display: inline;
+    box-shadow: 10px 10px 10px 0;
+
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: grayscale(1);
+}
+
+.desc {
+    text-align: center;
+}
+
+/* h1{
+    text-align: center;
+    display: inline;       
+} */

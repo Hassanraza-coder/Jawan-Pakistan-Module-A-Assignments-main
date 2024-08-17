@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+
+<body>
+    <!-- Q1 -->
+    <a onclick="alert('Hello World')" href="#">Click Me</a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Q2 -->
+    <button onclick="hide()" id="hide-me">Hide me</button>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Q3 -->
+    <div onmouseover="mouseover()" onmouseout="mouseout()" id="over-clr-change"
+        style="border: 2px solid black; color: aqua; height: 250px; width: 250px;"></div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Q4 -->
+    <a href="#" onclick="scrollToTop()">Scroll to Top</a>
+    <div style="height: 100px;">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium doloribus atque ea natus vitae eum cum
+        aliquid, impedit similique ullam eius quae illum temporibus incidunt qui excepturi magni blanditiis eligendi est
+        minus reprehenderit necessitatibus. Illo blanditiis, aliquam architecto voluptates, odit, non facere commodi
+        saepe dolor reiciendis ut. Dignissimos aut consequuntur fugiat dolores, error similique quo exercitationem
+        eveniet totam possimus nisi voluptatum. Beatae voluptatum ex ducimus, aut nesciunt tempora placeat esse ab
+        reiciendis, asperiores maiores, quasi in. Quaerat velit quos commodi porro corporis vel, sequi soluta aliquam
+        incidunt, dolore expedita ipsa accusantium facilis veniam harum, ex debitis ratione aut dolores placeat.
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Q5 -->
+    <a href="#" id="playSoundLink">Play</a>
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+
+    </audio>
+    <button></button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Q6 -->
+    <a href="#" id="openWindowLink">Open New Window</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Q7 -->
+    <a onclick="alert('Hello World')" href="#">Click Me</a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Q8 -->
+    <button onmouseover="mouseover1()" onmouseout="mouseout1()" id="over-clr-change2">click me</button>
+
+    <br><br><br><br><br>
+
+    <!-- Q10 -->
+    <a href="#" onmouseover="alert('Helloworld')">Hover me</a>
+
+    <br><br><br><br>
+    <!-- Q11 -->
+    <!-- already done in Q3 -->
+
+
+    <!-- Chapter 49, 50 (Reading and Setting field values) -->
+    <!-- Q1 -->
+    <input type="text" name="" id="userdata">
+    <button onclick="getdata()">Get</button>
+
+    <br><br><br><br>
+    <!-- Q2 -->
+    <label for="myCheckbox">Check this box:</label>
+    <input type="checkbox" id="myCheckbox">
+
+
+    <br><br><br><br>
+    <!-- Q3 -->
+    <label for="mySelect">Select an option:</label>
+    <select id="mySelect">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select>
+
+    <br><br><br><br>
+    <!-- Q4 -->
+    <input type="text" id="customTextField" value="Hello, World!">
+
+
+<br><br><br><br>
+<!-- Q5 -->
+<label for="maritalStatus">Are you married?</label>
+<select id="maritalStatus">
+    <option value="true">Yes</option>
+    <option value="false">No</option>
+</select>
+
+<input type="text" id="status">
+
+
+<br><br><br><br>
+<!-- Q6 -->
+<input type="text" id="myInput">
+
+<br><br><br><br>
+<!-- Q7 -->
+<h2>Registration Form</h2>
+<form id="registrationForm" onsubmit="return validateForm()">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+    <button type="submit">Register</button>
+</form>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        th {
+            font-size: larger;
+            padding: 10px;
+            background-color: grey;
+        }
+
+        .previous {
+            background-color: rgb(71, 180, 71);
+        }
+
+        .current {
+            background-color: rgb(116, 174, 192);
+        }
+
+        fieldset {
+            width: 530px;
+        }
+
+
+
+        img {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="Table">
+        <table>
+            <tr>
+                <th class="previous">Step 1: Account</th>
+                <th class="previous">Step 2: Personal Details</th>
+                <th class="current">Step 3: Your Review</th>
+            </tr>
+        </table>
+    </div>
+    <div class="form">
+        <fieldset>
+            <legend>Personal Details</legend>
+            How did you hear about us?
+            <select>
+                <option value="Facebook">Facebook</option>
+                <option value="Linkedin">Linkedin</option>
+                <option value="Instagram">Instagram</option>
+                <option disabled selected>Select Your Option</option>
+            </select>
+            <br>
+            <br>
+            Would you visit agan?
+            <br>
+            <input type="radio" name="Visit-again"> Yes <input type="radio" name="Visit-again"> No <input type="radio"
+                name="Visit-again"> Maybe
+            <br>
+            <br>
+            Comments:
+            <br>
+            <textarea name="" cols="60" rows="5" placeholder="Enter Your comments here...."></textarea>
+            <br>
+            <br>
+            Documents:
+            <br>
+            <br>
+            <input type="file">
+            <br>
+            <br>
+            <input type="checkbox"> Sign me for email updates
+            <br>
+            <a href="./PersonalDetails.html"><img src="./Images/Back.jpeg" alt=""></a>
+            <a href="./SubmittedPage.html"><img src="./Images/Submit.jpeg" alt=""></a>
+        </fieldset>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 10px 0px 10px gray;
+    position: sticky;
+    width: 100%;
+}
+
+.nav-img {
+    display: inline-block;
+}
+
+.nav-text {
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+.form{
+    border: 2px solid  green;
+    width: 150vh;
+    height: 150vh;
+    position: relative;
+    top: 55px;
+    right: 200px;
+    left: 200px;
+    box-shadow: 5px 5px 10px green,-5px -5px 10px green;
+    
+}
+.heading{
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+    color: green;
+    font-weight: bolder;
+}
+sup{
+    color: red;
+}
+.input-select-div{
+    
+    display: inline-block;
+    width: 20%;
+    height: 10%;
+    margin:  20px 70px;
+
+}
+.input-select{
+   border: none;
+   border-bottom: 1px solid green;
+   width: 100%;
+   padding: 10px;
+
+
+}
+.input-select-div-address{
+    
+    display: inline-block;
+    width: 52.5%;
+    height: 10%;
+    margin:  20px 70px;
+
+}
+.input-select-address{
+    border: none;
+    border-bottom: 1px solid green;
+    width: 100%;
+    padding: 10px;
+ 
+ 
+ }
+ .input-file{
+    border: 1px dotted  green;
+    width: 105%;
+    padding: 25px;
+    margin: 5px;
+ }
+ .custom-file-upload{
+    background-color: green;
+ }
+ .submit{
+   
+    width: 50%;
+    margin: auto;
+    text-align: center;
+ }
+ .btn{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+ }
+

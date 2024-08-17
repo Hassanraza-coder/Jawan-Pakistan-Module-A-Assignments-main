@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sports Gallery</title>
+        <style>
+
+header{
+    text-align: center;
+    background-color: gray;
+    
+}
+button{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3px;
+    
+    
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid brown;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px black;
+    margin: 10px;
+    transition: 400ms;
+}
+div img:hover{
+    filter: grayscale(1);
+    transform: scale(1.1);
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>"Sports Gallery"</h1>
+            <div class="btn">
+                <nav>
+                    <button>
+                        <a href="index.html">Animal Gallery</a>
+                    </button>
+                    <button>
+                        <a href="Index2.html">Cars Gallery</a>
+                    </button>
+                    <button>
+                        <a href="index3.html">Sports Gallery</a>
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <h3>Online Images</h3>
+        <div>
+            <img src="https://www.shutterstock.com/shutterstock/photos/173318291/display_1500/stock-photo-scoring-the-winning-points-at-a-basketball-game-173318291.jpg" alt="Basket Ball">
+            <img src="https://tennisconnected.com/home/wp-content/uploads/2021/10/table-tennis.jpg" alt="Table Tennis">
+            <img src="https://www.topendsports.com/sport/boxing/images/boxing-unsplash.jpg" alt="Boxing">
+            <img src="https://cdn.images.express.co.uk/img/dynamic/71/590x/Golf-quiz-questions-answers-1283380.jpg?r=1591886242916" alt="Golf">
+            <img src="https://mapmygenome.in/media/blog/2019/09/Sports_Genomics_Volleyball.png" alt="Volley Ball">
+        </div>
+        <h3>Offline Images</h3>
+        <div>
+            <img src="./Images/Sports/Batminton.jpeg" alt="Batminton">
+            <img src="./Images/Sports/Cricket.jpeg" alt="Cricket">
+            <img src="./Images/Sports/Cycling.jpeg" alt="Cycling">
+            <img src="./Images/Sports/FootBall.jpeg" alt="FootBall">
+            <img src="./Images/Sports/Swimming.jpeg" alt="Swimming">
+        </div>
+    </body>
+</html>

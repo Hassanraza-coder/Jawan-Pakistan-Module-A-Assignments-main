@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .quiz-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .question {
+      font-size: 18px;
+    }
+    .options {
+      display: flex;
+      flex-direction: column;
+    }
+    .option {
+      margin: 5px;
+    }
+    .result {
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="question"></div>
+    <div class="options"></div>
+    <div class="result"></div>
+  </div>
+
+  <script>
+    var questions = [
+      {
+        question: "How to write an IF statement in JavaScript?",
+        options: ["if (i == 5)", "if i == 5 then", "if i = 5 then"],
+        correctAns: "if (i == 5)"
+      },
+      {
+        question: "How do you create a function in JavaScript?",
+        options: ["function myFunction()", "function:myFunction()", "function = myFunction()"],
+        correctAns: "function myFunction()"
+      },
+      {
+        question: "How do you write 'Hello World' in an alert box?",
+        options: ["alert('Hello World');", "alertBox('Hello World');", "msg('Hello World');"],
+        correctAns: "alert('Hello World');"
+      },
+      {
+        question: "The external JavaScript file must contain the <script> tag.",
+        options: ["True", "None of Them", "False"],
+        correctAns: "False"
+      },
+      {
+        question: "How do you call a function named 'myFunction'?",
+        options: ["myFunction()", "call myFunction()", "call function myFunction()"],
+        correctAns: "myFunction()"
+      },
+    ];
+
+    var currentQuestion = 0;
+    var score = 0;
+    var quizContainer = document.querySelector(".quiz-container");
+    var questionElement = quizContainer.querySelector(".question");
+    var optionsElement = quizContainer.querySelector(".options");
+    var resultElement = quizContainer.querySelector(".result");
+
+    function showQuestion() {
+      if (currentQuestion < questions.length) {
+        questionElement.textContent = questions[currentQuestion].question;
+        optionsElement.innerHTML = "";
+        for (var i = 0; i < questions[currentQuestion].options.length; i++) {
+          var option = document.createElement("button");
+          option.textContent = questions[currentQuestion].options[i];
+          option.addEventListener("click", handleAnswer);
+          optionsElement.appendChild(option);
+        }
+      } else {
+        showResult();
+      }
+    }
+
+    function handleAnswer(event) {
+      var selectedAnswer = event.target.textContent;
+      var correctAnswer = questions[currentQuestion].correctAns;
+      if (selectedAnswer === correctAnswer) {
+        score += 1;
+      }
+      currentQuestion += 1;
+      showQuestion();
+    }
+
+    function showResult() {
+      var percentage = (score / questions.length) * 100;
+      resultElement.textContent = "Quiz Complete! You scored " + score + " out of " + questions.length + " (" + percentage + "%).";
+      if (percentage >= 80) {
+        resultElement.textContent += " Excellent!";
+      } else if (percentage >= 60) {
+        resultElement.textContent += " Good, but you can do better!";
+      } else {
+        resultElement.textContent += " You need more practice!";
+      }
+    }
+
+    showQuestion();
+  </script>
+</body>
+</html>
